@@ -1,0 +1,485 @@
+/*Preparations*/
+/*Fonts*/
+@font-face {
+	font-family: "BebasNeueBold";
+	src: url("./fonts/BebasNeueBold/BebasNeue-Bold.ttf") format('truetype'), url("/fonts/BebasNeueBold/BebasNeue-Bold.woff") format('woff'), 
+	url("/fonts/BebasNeueBold/BebasNeue-Bold.svg") format('svg');
+	font-weight: 700;
+}
+@font-face {
+	font-family: "OpenSans-SemiBold";
+	src: url("./fonts/OpenSans-SemiBold/OpenSans-Semibold.ttf") format('truetype'), url("./fonts/OpenSans-SemiBold/OpenSans-Semibold.woff") format('woff'),
+	url("./fonts/OpenSans-SemiBold/OpenSans-Semibold.svg") format('svg');
+	font-weight: 600;
+}
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("./fonts/OpenSans-Bold/OpenSans-Bold.ttf") format('truetype'), url("./fonts/OpenSans-Bold/OpenSans-Bold.woff") format('woff'),
+	url("./fonts/OpenSans-Bold/OpenSans-Bold.svg") format('svg');
+	font-weight: 700;
+}
+@font-face {
+	font-family: "OpenSans-Normal";
+	src: url("./fonts/OpenSans-Regular/OpenSans-Regular.ttf") format('truetype'), url("./fonts/OpenSans-Regular/OpenSans-Regular.woff") format('woff'),
+	url("./fonts/OpenSans-Regular/OpenSans-Regular.svg") format('svg');
+	font-weight: 400;
+}
+/*Preparations before main part*/
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #F5F5F5;
+	box-sizing: border-box;
+	background-color: #E6E6E6;
+}
+/*Main block(for centering all the content)*/
+.main{
+	width: 1440px;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0%);
+	background-color: #979797;
+}
+/*Main part*/
+/*Project header*/
+.project-header{
+	background-image: url("./images/headerBackground.jpg");
+	width: 1438px;
+	height: 769px;
+	font-family: "BebasNeueBold";
+	color:#FFFFFF;
+	margin: 0 auto;
+}
+/*Logo*/
+.project-header-logo{
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0%);
+	margin-top: 42px;
+}
+/*Header text*/
+.partner-with-construct{
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: 5.7px;
+	padding-top: 381px;
+	padding-left: 434px;
+}
+.project-header p{
+	font-family: "OpenSans-Normal";
+}
+.an-award-winning-construction{
+	font-size: 16px;
+	text-align: center;
+}
+.scroll-down{
+	font-size: 11px;
+	text-transform: uppercase;
+	padding-top: 221px;
+	text-align: center;
+	letter-spacing: 3.7px;
+}
+/*Main content*/
+.main-content{
+	color: #48555B;
+	background-color: white;
+}
+/*header*/
+.main-content-header{
+	top:0px;
+	font-family: "OpenSans-SemiBold";
+	width: 1442px;
+	height: 65px;
+	border-width: 1px 0px;
+	border-style: solid;
+	border-color: #E6E6E6;
+}
+/*Logo*/
+.main-content-header-logo{
+	padding-left: 251px;
+	padding-top: 24px;
+}
+/*Buttons*/
+.main-content-header-buttons{
+	justify-content: space-between;
+	font-size: 12px;
+	padding-left: 451px;
+	padding-right: 250px;
+	line-height: 14px;
+	position: absolute;
+	padding-top: 24px;
+	
+}
+.main-content-header-buttons span{
+	cursor: pointer;
+}
+/*Spans*/
+.about{
+	padding-left: 48px;
+	color: #00A4E5;
+
+}
+.services{
+	padding-left: 42.5px;
+}
+.work{
+	padding-left: 39px;
+}
+.contact{
+	padding-left: 30px;
+}
+.main-content-header-buttons span:hover{
+	color: #00a4e5cb;
+}
+/*Main part*/
+/*Our story*/
+.our-story{
+	font-family: "OpenSans-Bold";
+	color: #48555B;
+}
+.our-story-header{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 57px;
+
+}
+.our-story-border-of-header{
+	width: 50px;
+	height: 2px;
+	border-bottom: 2px solid #00A4E5;
+	padding-top: 10px;
+	position: absolute;
+	left:50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0%);
+}
+/*Our story main part*/
+.our-story-main-part{
+	display: flex;
+	flex-direction: row;
+	padding-top: 85px;
+	padding-left: 249px;
+}
+
+/*Our story text*/
+/*Header*/
+.our-story-text-header{
+	font-size: 20px;
+}
+.konstruct-word{
+	color: #16ACE8;
+}
+/*Main text*/
+.our-story-main-text{
+	font-family: "OpenSans-Normal";
+	padding-top: 40px;
+	font-size: 13px;
+}
+/*Images part*/
+.our-story-images-part{
+	display: flex;
+	flex-direction: row;
+	padding-left: 77px;
+	/*color: #FFFFFF;*/
+}
+/*Icons*/
+.our-story-icons{
+	width: 140px;
+	height: 185px;
+	margin-left: 35px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 29px;
+	transition-duration: 0.4s;
+}
+.our-story-icons:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	scale: 1.08;
+}
+.our-story-icons h1{
+	margin-top: 15px;
+	margin-left: 14px;
+	text-transform: uppercase;
+}
+.we-plan{
+	background-image: url("./images/we_plan.jpg");
+}
+.we-manage{
+	background-image: url("./images/we_manage.jpg");
+}
+.we-build{
+	background-image: url("./images/we_build.jpg");
+}
+
+/*Our capabilities*/
+.our-capabilities{
+	max-width: 940px;
+	padding-top: 120px;
+	margin: 0 auto;
+	font-family: "OpenSans-Normal";
+}
+
+.our-capabilities h1{
+	font-family: "OpenSans-SemiBold";
+}
+/*Top part*/
+.our-capabilities-top-part{
+	display: flex;
+	flex-direction: row;
+}
+.our-capabilities-top-part-header{
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.our-capabilities-top-part-main-text{
+	padding-left: 150px;
+	font-size: 11px;
+	letter-spacing: 0.2px;
+	line-height: 19px;
+}
+.our-capabilities-button{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00A4E5;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-left: 60px;
+	border-color:transparent;
+	line-height: 15px;
+	letter-spacing: 1.2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+.our-capabilities-button:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/*Frame part*/
+/*External frame part*/
+.our-capabilities-frame-part{
+	display: flex;
+	flex-direction: row;
+	padding-top: 78px;
+	margin: 0 auto;
+}
+.our-capabilities-frame-part div{
+	width: 295px;
+	height: 330px;
+	border: 1px solid #E6E6E6;
+	/*Internal indent*/
+	padding-top: 38px;
+	padding-left: 23px;
+	transition-duration: 0.4s;	
+}
+.our-capabilities-frame-part div:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	scale: 1.08;
+}
+.our-capabilities-frame-part .structure-audit-and-maintenance, .factory-construction-and-modeling{
+	margin-left: 28px;
+}
+.our-capabilities-border{
+	width: 50px;
+	height: 2px;
+	border-bottom: 2px solid #00A4E5;
+}
+/*Internal frame part*/
+.frame-header{
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	margin-top: 25px;
+	letter-spacing: 0.45px;
+	line-height: 24px;
+}
+.frame-main-text{
+	display: block;
+	margin-top: 17px;
+	font-size: 13px;
+	letter-spacing: 0.2px;
+	line-height: 23px;
+}
+
+
+/*Want to build*/
+.want-to-build{
+	height: 498px;
+	background-image: url("./images/want_to_build.jpg");
+	margin-top: 115px;
+	padding-top: 120px;
+}
+.want-to-build h2{
+	font-family: "OpenSans-Bold";
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 0.2px;
+	line-height: 36px;
+}
+.want-to-build-button{
+	font-family: "OpenSans-SemiBold";
+	height: 40px;
+	width: 150px;
+	font-size: 13px;
+	background-color: #00A4E5;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin: 0 auto;
+	margin-top: 35px;
+	text-align: center;
+	padding-top: 14px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+.want-to-build-button:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Newsletter Signup*/
+.newsletter-signup{
+	font-family: "OpenSans-SemiBold";
+	display: flex;
+	flex-direction: row;
+	color: #FFFFFF;
+	height: 100px;
+	background-color: #171819;
+	padding-left: 380px;
+	padding-top: 35px;
+}
+/*text*/
+.newsletter-signup h2{
+	font-size: 22px;
+	letter-spacing: 0.85px;
+	margin-top: 5px;
+}
+/*Button and input field*/
+.enter-email{
+	display: flex;
+	flex-direction: row;
+	margin-left: 70px;
+}
+.input-field{
+	font-family: "OpenSans-Normal";
+	height: 41px;
+	width: 250px;
+	background-color: #FFFFFF;
+	color: #48555B;
+	font-size: 14px;
+	border-color: transparent;
+}
+.signup-button{
+	font-size: 13px;
+	width: 150px;
+	height: 41px;
+	background-color: #00A4E5;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	border-color: transparent;
+	transition-duration: 0.4s;
+}
+.signup-button:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Contacts*/
+.contacts-and-links{
+	font-family: "OpenSans-Normal";
+	display: flex;
+	flex-direction: row;
+	color: #FFFFFF;
+	padding-top: 42px;
+	padding-left: 250px;
+	height: 240px;
+	background-color: #141A20;
+}
+/*About company*/
+.about-company{
+	display: flex;
+	flex-direction: column;
+}
+.about-company-text{
+	font-size: 11px;
+	letter-spacing: 0.85px;
+	line-height: 19px;
+}
+.about-company-logo{
+	width: 102px;
+	margin-top: 19px;
+	margin-bottom: 15px;
+}
+
+/*Links*/
+.links-list{
+	display: flex;
+}
+.links{
+	font-size: 11px;
+	margin-left: 72px;
+	line-height: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.85px;
+}
+.links-text, .contact-us-text{
+	display: block;
+	margin-bottom: 15px;
+}
+.links-text:hover{
+	color:#00A4E5;
+}
+.links-list-element{
+	list-style-type: none;
+	line-height: 25px;
+}
+.links-list-element:hover{
+	color:#00A4E5;
+}
+.second-and-thrird-links-lists{
+	margin-left: 38px;
+}
+
+/*Contact us*/
+.contact-us-links{
+	padding-left: 60px;
+	font-size: 11px;
+	letter-spacing: 0.85px;
+}
+.contact-us-data{
+	list-style-type: none;
+	line-height: 16px;
+}
+.second-and-thrird-contact-us{
+	margin-top: 13.5px;
+}
+
+/*Icons*/
+.contacts-and-links-icons{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.icons-indent{
+	margin-left: 25px;
+}
+
+
+/*Footer*/
+footer{
+	font-family: "OpenSans-Normal";
+	height: 60px;
+	font-size: 11px;
+	color: #FFFFFF;
+	letter-spacing: 0.85px;
+	text-align: center;
+	padding-top: 23px;
+	background-color: #171819;
+}
+footer span:hover{
+	color: #00A4E5;
+}
